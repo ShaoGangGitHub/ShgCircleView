@@ -23,6 +23,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 内部lable字体大小
 @property (nonatomic,strong) UIFont *font;
 
+/// 内部labe文字颜色
+@property (nonatomic,strong) UIColor *textColor;
+
 /// 当 cutDownTime > 0 时，执行动画
 @property (nonatomic,assign) NSInteger cutDownTime;
 
@@ -42,6 +45,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 重置动画，动画重新开始执行
 - (void)reset;
+
+/// 圆环头视图
+@property (nonatomic,strong) UIView *endView;
 
 @end
 
